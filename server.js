@@ -5,7 +5,7 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var Articles = {
+var articles = {
     'article-one': {
     title: 'Article One | Smita Khobragade',
     heading: 'Article One',
