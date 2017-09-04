@@ -1,6 +1,7 @@
 var button = document.getElementById('counter');
 
 button.onclick = function () {
+    
     var request =  new XMLHttpRequest();
     
     request.onreadystatechange = function () {
@@ -14,6 +15,6 @@ button.onclick = function () {
         }
     };
     
-    request.open('GET', 'http://smitakhobragade777.imad.hasura-app.io/counter', true);
+    request.open('GET', 'http://smita1995.imad.hasura-app.io/counter', true);
     request.send(null);
 };
